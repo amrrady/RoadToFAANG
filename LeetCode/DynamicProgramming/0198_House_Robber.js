@@ -32,6 +32,11 @@ var robOptimized = function(nums) {
 
   return b;
 };
+
+
+// Space Complexity: O(1)
+// Time Complexity: O(n)
+
 // Compare times
 let startTime = new Date();
 let result = robNaive([1,2,3,1]);

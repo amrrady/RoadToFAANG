@@ -24,6 +24,9 @@ var robOptimized = function(nums, start = 0, end = nums.length){
   return b;
 };
 
+// Space Complexity: O(1)
+// Time Complexity: O(n)
+
 // Compare times
 let startTime = new Date();
 let result = rob([2,3,2]);
